@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module SIGN_EXT
+module SIGNEXT
 (
     input [15:0] in,
     output [31:0] out
