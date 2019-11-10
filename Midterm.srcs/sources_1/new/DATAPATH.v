@@ -13,14 +13,24 @@ module DATAPATH
     output [31:0] aluout, writedata,
     input [31:0] readdata
 );
-
-    reg [4:0] writereg;
-    reg [31:0] pcnext, pcnextbr, pcplus4, pcbranch;
-    reg [31:0] signimm, signimmsh;
-    reg [31:0] srca, srcb;
-    reg [31:0] result;
+    // writereg : reg writing to at register file
+    wire [4:0] writereg;
     
-    // next pc
+    // pcplus4  : current pc + 4
+    // pcnext   : next pc
+    // pcnextbr : pc selected from mux (real pc)
+    // pcbranch : pcplus4 + signimm shfited
+    wire [31:0] pcnext, pcnextbr, pcplus4, pcbranch;
+    
+    // signimm   : sign extended from last 16 bit from instruction
+    // signimmsh : signimm shifted
+    wire [31:0] signimm, signimmsh;
+    
+    wire [31:0] srca, srcb;
+    
+    // result : result writing to at register file
+    wire [31:0] result;
+    
     FLOPR#(32) pcreg(clk, reset, pcnext, pc);
     ADDER pcadd1(pc, 32'b100, pcplus4);
     SL2 immsh(signimm, signimmsh);
@@ -35,6 +45,7 @@ module DATAPATH
     SIGNEXT se(instr[15:0], signimm);
     
     // ALU
+    // mux for immediate operation or not
     MUX2#(32) srcbmux(writedata, signimm, alusrc, srcb);
     ALU alu(srca, srcb, alucontrol, aluout, zero);
 endmodule

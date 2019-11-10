@@ -7,7 +7,7 @@ module ALUDEC
     output reg [2:0] alucontrol
 );
 
-always @ (funct or aluop)
+always @ (aluop or funct)
     begin
     case (aluop)
         2'b00 : alucontrol <= 3'b010;  // add (lw, sw, addi)

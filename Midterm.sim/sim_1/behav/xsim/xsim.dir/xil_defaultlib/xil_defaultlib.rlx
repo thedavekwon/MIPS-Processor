@@ -1,0 +1,21 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sim_1/new/testbench.v,1573342400,verilog,,,,testbench,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ADDER.v,1573330786,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ALU.v,,ADDER,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ALU.v,1573353653,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ALUDEC.v,,ALU,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ALUDEC.v,1573341038,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/CONTROL.v,,ALUDEC,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/CONTROL.v,1573332364,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/DATAPATH.v,,CONTROL,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/DATAPATH.v,1573345099,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/DM.v,,DATAPATH,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/DM.v,1573354310,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/FLOPR.v,,DM,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/FLOPR.v,1573342151,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v,,FLOPR,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v,1573340621,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/MAINDEC.v,,IM,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/MAINDEC.v,1573345328,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/MIPS.v,,MAINDEC,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/MIPS.v,1573345428,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PROCESSOR.v,,MIPS,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PROCESSOR.v,1573339112,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/RF.v,,PROCESSOR,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/RF.v,1573344858,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/SIGN_EXT.v,,RF,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/SIGN_EXT.v,1573330786,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/SL2.v,,SIGNEXT,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/SL2.v,1573330786,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/mux2.v,,SL2,,,,,,,,
+/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/mux2.v,1573340176,verilog,,/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sim_1/new/testbench.v,,MUX2,,,,,,,,

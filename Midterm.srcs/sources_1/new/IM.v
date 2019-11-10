@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-//32 bit wide and 10 bit height instruction memory
+//32 bit wide and 6 bit instruction memory array
 
 module IM
 (
@@ -10,7 +10,7 @@ module IM
 
     reg [31:0] INSTUCT_RAM [63:0];
     initial
-        $readmemb ("INSTUCT_RAM.mem", INSTUCT_RAM, 0, 64);
+        $readmemh ("instruction_mem.mem", INSTUCT_RAM);
     
-    assign rd = INSTUCT_RAM[addr[9:0]];
+    assign rd = INSTUCT_RAM[addr];
 endmodule

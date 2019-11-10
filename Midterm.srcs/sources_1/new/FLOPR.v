@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module FLOPR#(parameter WIDTH=8)
+module FLOPR #(parameter WIDTH=8)
 (
     input clk, reset,
     input [WIDTH-1:0] d,

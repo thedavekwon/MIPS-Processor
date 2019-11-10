@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ADDER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADDER
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ALUDEC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDEC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/CONTROL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONTROL
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/DATAPATH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DATAPATH
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/DM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/FLOPR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FLOPR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/MAINDEC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAINDEC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/MIPS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PROCESSOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PROCESSOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/RF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RF
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/SIGN_EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SIGNEXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/SL2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SL2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

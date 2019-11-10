@@ -1,0 +1,1 @@
+set_property ARRAY_DISPLAY_LIMIT 8192 [testbench_behav]

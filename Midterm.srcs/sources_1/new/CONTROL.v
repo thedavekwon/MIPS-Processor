@@ -12,8 +12,8 @@ module CONTROL
     output [2:0] alucontrol
 );
 
-    reg [1:0] aluop;
-    reg branch;
+    wire [1:0] aluop;
+    wire branch;
     
     MAINDEC md(opcode, memtoreg, memwrite, branch, alusrc, regdst, regwrite, jump, aluop);
     ALUDEC ad(funct, aluop, alucontrol);

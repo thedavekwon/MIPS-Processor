@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Midterm.srcs/sources_1/new/ADDER.v" \
+"../../../../Midterm.srcs/sources_1/new/ALU.v" \
+"../../../../Midterm.srcs/sources_1/new/ALUDEC.v" \
+"../../../../Midterm.srcs/sources_1/new/CONTROL.v" \
+"../../../../Midterm.srcs/sources_1/new/DATAPATH.v" \
+"../../../../Midterm.srcs/sources_1/new/DM.v" \
+"../../../../Midterm.srcs/sources_1/new/FLOPR.v" \
+"../../../../Midterm.srcs/sources_1/new/IM.v" \
+"../../../../Midterm.srcs/sources_1/new/MAINDEC.v" \
+"../../../../Midterm.srcs/sources_1/new/MIPS.v" \
+"../../../../Midterm.srcs/sources_1/new/PROCESSOR.v" \
+"../../../../Midterm.srcs/sources_1/new/RF.v" \
+"../../../../Midterm.srcs/sources_1/new/SIGN_EXT.v" \
+"../../../../Midterm.srcs/sources_1/new/SL2.v" \
+"../../../../Midterm.srcs/sources_1/new/mux2.v" \
+"../../../../Midterm.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
