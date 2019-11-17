@@ -11,7 +11,9 @@ module DATAPATH
     output [31:0] pc,
     input [31:0] instr,
     output [31:0] aluout, writedata,
-    input [31:0] readdata
+    input [31:0] readdata,
+    output [7:0] showreg,
+    input [6:0] showaddr
 );
     // writereg : reg writing to at register file
     wire [4:0] writereg;
@@ -39,7 +41,7 @@ module DATAPATH
     MUX2#(32) pcmux(pcnextbr, {pcplus4[31:28], instr[25:0], 2'b00}, jump, pcnext);
     
     // register file logic
-    RF rf(clk, regwrite, instr[25:21], instr[20:16], writereg, result, srca, writedata);
+    RF rf(clk, regwrite, instr[25:21], instr[20:16], writereg, result, srca, writedata, showreg, showaddr);
     MUX2#(5) wrmux(instr[20:16], instr[15:11], regdst, writereg);
     MUX2#(32) resmux(aluout, readdata, memtoreg, result);
     SIGNEXT se(instr[15:0], signimm);

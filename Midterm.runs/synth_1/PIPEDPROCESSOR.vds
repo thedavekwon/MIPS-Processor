@@ -1,0 +1,594 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Nov 16 22:05:28 2019
+# Process ID: 32322
+# Current directory: /afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.runs/synth_1
+# Command line: vivado -log PIPEDPROCESSOR.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PIPEDPROCESSOR.tcl
+# Log file: /afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.runs/synth_1/PIPEDPROCESSOR.vds
+# Journal file: /afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source PIPEDPROCESSOR.tcl -notrace
+Command: synth_design -top PIPEDPROCESSOR -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 32376 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1655.977 ; gain = 152.719 ; free physical = 5527 ; free virtual = 24693
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'PIPEDPROCESSOR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDPROCESSOR.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PIPEDMIPS' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PIPEDCONTROL' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDCONTROL.v:3]
+INFO: [Synth 8-6157] synthesizing module 'MAINDEC' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/MAINDEC.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'MAINDEC' (1#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/MAINDEC.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALUDEC' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ALUDEC.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALUDEC' (2#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ALUDEC.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'PIPEDCONTROL' (3#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDCONTROL.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PIPEDDATAPATH' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:2]
+WARNING: [Synth 8-6104] Input port 'ALUOutW' has an internal driver [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:57]
+INFO: [Synth 8-6157] synthesizing module 'FLOPR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/FLOPR.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FLOPR' (4#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/FLOPR.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (32) of module 'FLOPR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:49]
+WARNING: [Synth 8-6104] Input port 'PCF' has an internal driver [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:49]
+INFO: [Synth 8-6157] synthesizing module 'SL2' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/SL2.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'SL2' (5#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/SL2.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ADDER' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ADDER.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ADDER' (6#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ADDER.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'y' does not match port width (32) of module 'ADDER' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:52]
+INFO: [Synth 8-6157] synthesizing module 'MUX2' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/mux2.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX2' (7#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/mux2.v:3]
+INFO: [Synth 8-6157] synthesizing module 'RF' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/RF.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'RF' (8#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/RF.v:4]
+WARNING: [Synth 8-689] width (1) of port connection 'rd1' does not match port width (32) of module 'RF' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:59]
+WARNING: [Synth 8-689] width (1) of port connection 'rd2' does not match port width (32) of module 'RF' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:59]
+WARNING: [Synth 8-689] width (1) of port connection 'showreg' does not match port width (8) of module 'RF' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:59]
+INFO: [Synth 8-6157] synthesizing module 'MUX2__parameterized0' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/mux2.v:3]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX2__parameterized0' (8#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/mux2.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'y' does not match port width (5) of module 'MUX2__parameterized0' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:60]
+WARNING: [Synth 8-6104] Input port 'WriteRegE' has an internal driver [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:60]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (9#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/ALU.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'aluout' does not match port width (32) of module 'ALU' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:66]
+WARNING: [Synth 8-3848] Net WriteRegM in module/entity PIPEDDATAPATH does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:15]
+WARNING: [Synth 8-3848] Net ResultW in module/entity PIPEDDATAPATH does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:59]
+WARNING: [Synth 8-3848] Net showaddr in module/entity PIPEDDATAPATH does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:59]
+WARNING: [Synth 8-3848] Net signimm in module/entity PIPEDDATAPATH does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:41]
+WARNING: [Synth 8-3848] Net ReadDataW in module/entity PIPEDDATAPATH does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:57]
+WARNING: [Synth 8-3848] Net PCPlus4F in module/entity PIPEDDATAPATH does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:53]
+WARNING: [Synth 8-3848] Net ZeroM in module/entity PIPEDDATAPATH does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:56]
+WARNING: [Synth 8-3848] Net aluout in module/entity PIPEDDATAPATH does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:61]
+WARNING: [Synth 8-3848] Net readdata in module/entity PIPEDDATAPATH does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:61]
+WARNING: [Synth 8-3848] Net memtoreg in module/entity PIPEDDATAPATH does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'PIPEDDATAPATH' (10#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDDATAPATH.v:2]
+WARNING: [Synth 8-689] width (32) of port connection 'PCF' does not match port width (1) of module 'PIPEDDATAPATH' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:30]
+WARNING: [Synth 8-689] width (3) of port connection 'ALUControlE' does not match port width (1) of module 'PIPEDDATAPATH' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:30]
+WARNING: [Synth 8-689] width (6) of port connection 'RtE' does not match port width (1) of module 'PIPEDDATAPATH' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:30]
+WARNING: [Synth 8-689] width (6) of port connection 'RdE' does not match port width (1) of module 'PIPEDDATAPATH' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:30]
+WARNING: [Synth 8-689] width (32) of port connection 'PCPlus4E' does not match port width (1) of module 'PIPEDDATAPATH' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:30]
+WARNING: [Synth 8-689] width (32) of port connection 'rd1D' does not match port width (1) of module 'PIPEDDATAPATH' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:31]
+WARNING: [Synth 8-689] width (32) of port connection 'rd2D' does not match port width (1) of module 'PIPEDDATAPATH' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:31]
+WARNING: [Synth 8-689] width (32) of port connection 'rd1E' does not match port width (1) of module 'PIPEDDATAPATH' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:31]
+WARNING: [Synth 8-689] width (32) of port connection 'rd2E' does not match port width (1) of module 'PIPEDDATAPATH' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:31]
+INFO: [Synth 8-6157] synthesizing module 'SIGNEXT' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/SIGN_EXT.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'SIGNEXT' (11#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/SIGN_EXT.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pipeFD' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeFD.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (32) of module 'FLOPR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeFD.v:12]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (32) of module 'FLOPR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeFD.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'pipeFD' (12#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeFD.v:3]
+WARNING: [Synth 8-689] width (32) of port connection 'PCPlus4F' does not match port width (1) of module 'pipeFD' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:36]
+WARNING: [Synth 8-689] width (32) of port connection 'readdata' does not match port width (1) of module 'pipeFD' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:36]
+WARNING: [Synth 8-689] width (32) of port connection 'PCPlus4D' does not match port width (1) of module 'pipeFD' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:36]
+WARNING: [Synth 8-689] width (32) of port connection 'instrD' does not match port width (1) of module 'pipeFD' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:36]
+INFO: [Synth 8-6157] synthesizing module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeD.v:2]
+INFO: [Synth 8-6157] synthesizing module 'FLOPR__parameterized0' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/FLOPR.v:3]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FLOPR__parameterized0' (12#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/FLOPR.v:3]
+INFO: [Synth 8-6157] synthesizing module 'FLOPR__parameterized1' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/FLOPR.v:3]
+	Parameter WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FLOPR__parameterized1' (12#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/FLOPR.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (2) of module 'FLOPR__parameterized1' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeD.v:39]
+INFO: [Synth 8-6157] synthesizing module 'FLOPR__parameterized2' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/FLOPR.v:3]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FLOPR__parameterized2' (12#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/FLOPR.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (5) of module 'FLOPR__parameterized2' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeD.v:42]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (5) of module 'FLOPR__parameterized2' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeD.v:43]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (32) of module 'FLOPR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeD.v:44]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (32) of module 'FLOPR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeD.v:45]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (32) of module 'FLOPR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeD.v:46]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (32) of module 'FLOPR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeD.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'pipeDE' (13#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeD.v:2]
+WARNING: [Synth 8-689] width (3) of port connection 'ALUControlD' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:37]
+WARNING: [Synth 8-689] width (32) of port connection 'PCPlus4D' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:37]
+WARNING: [Synth 8-689] width (5) of port connection 'RsD' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:37]
+WARNING: [Synth 8-689] width (5) of port connection 'RtD' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:37]
+WARNING: [Synth 8-689] width (32) of port connection 'RdD' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:37]
+WARNING: [Synth 8-689] width (32) of port connection 'SignImmD' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:37]
+WARNING: [Synth 8-689] width (32) of port connection 'rd1D' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:37]
+WARNING: [Synth 8-689] width (3) of port connection 'BranchE' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:38]
+WARNING: [Synth 8-689] width (32) of port connection 'RegDstE' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:38]
+WARNING: [Synth 8-689] width (6) of port connection 'PCPlus4E' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:38]
+WARNING: [Synth 8-689] width (6) of port connection 'RtE' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:38]
+WARNING: [Synth 8-689] width (32) of port connection 'RdE' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:38]
+WARNING: [Synth 8-689] width (32) of port connection 'SignImmE' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:38]
+WARNING: [Synth 8-689] width (32) of port connection 'rd1E' does not match port width (1) of module 'pipeDE' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:38]
+WARNING: [Synth 8-7023] instance 'de' of module 'pipeDE' has 29 connections declared, but only 28 given [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:37]
+INFO: [Synth 8-6157] synthesizing module 'pipeEM' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeE.v:2]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (5) of module 'FLOPR__parameterized2' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeE.v:29]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (32) of module 'FLOPR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeE.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'pipeEM' (14#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeE.v:2]
+INFO: [Synth 8-6157] synthesizing module 'pipeMW' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeW.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (5) of module 'FLOPR__parameterized2' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeW.v:21]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (32) of module 'FLOPR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeW.v:22]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (32) of module 'FLOPR' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeW.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pipeMW' (15#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/pipeW.v:3]
+WARNING: [Synth 8-689] width (32) of port connection 'ReadDataM' does not match port width (1) of module 'pipeMW' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:40]
+WARNING: [Synth 8-689] width (32) of port connection 'ReadDataW' does not match port width (1) of module 'pipeMW' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:40]
+WARNING: [Synth 8-3848] Net PCF in module/entity PIPEDMIPS does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:6]
+WARNING: [Synth 8-3848] Net memwrite in module/entity PIPEDMIPS does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:8]
+WARNING: [Synth 8-3848] Net aluout in module/entity PIPEDMIPS does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:9]
+WARNING: [Synth 8-3848] Net writedata in module/entity PIPEDMIPS does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:10]
+WARNING: [Synth 8-3848] Net showreg in module/entity PIPEDMIPS does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:12]
+WARNING: [Synth 8-3848] Net ALUSrcE in module/entity PIPEDMIPS does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:30]
+WARNING: [Synth 8-3848] Net SignImmE in module/entity PIPEDMIPS does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:30]
+WARNING: [Synth 8-3848] Net zero in module/entity PIPEDMIPS does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:19]
+WARNING: [Synth 8-3848] Net RegWriteE in module/entity PIPEDMIPS does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:20]
+WARNING: [Synth 8-3848] Net WriteRegE in module/entity PIPEDMIPS does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'PIPEDMIPS' (16#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDMIPS.v:3]
+INFO: [Synth 8-6157] synthesizing module 'IM' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:5]
+INFO: [Synth 8-3876] $readmem data file 'instruction_mem.mem' is read successfully [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'IM' (17#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:5]
+INFO: [Synth 8-6157] synthesizing module 'DM' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/DM.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'DM' (18#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/DM.v:5]
+WARNING: [Synth 8-3848] Net readdata in module/entity PIPEDPROCESSOR does not have driver. [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDPROCESSOR.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'PIPEDPROCESSOR' (19#1) [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/PIPEDPROCESSOR.v:3]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[31]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[30]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[29]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[28]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[27]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[26]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[25]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[24]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[23]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[22]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[21]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[20]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[19]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[18]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[17]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[16]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[15]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[14]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[13]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[12]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[11]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[10]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[9]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[8]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[7]
+WARNING: [Synth 8-3331] design pipeDE has unconnected port RsD
+WARNING: [Synth 8-3331] design RF has unconnected port showaddr[6]
+WARNING: [Synth 8-3331] design RF has unconnected port showaddr[5]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[31]
+WARNING: [Synth 8-3331] design SL2 has unconnected port in[30]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port WriteRegM
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[31]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[30]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[29]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[28]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[27]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[26]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[15]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[14]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[13]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[12]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[11]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[10]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[9]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[8]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[7]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[6]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[5]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[4]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[3]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[2]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[1]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port instrD[0]
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port RegWriteE
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port MemtoRegE
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port MemWriteE
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port BranchE
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port zeroM
+WARNING: [Synth 8-3331] design PIPEDDATAPATH has unconnected port ALUOutM
+WARNING: [Synth 8-3331] design PIPEDCONTROL has unconnected port zero
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port memwrite
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[31]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[30]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[29]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[28]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[27]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[26]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[25]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[24]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[23]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[22]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[21]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[20]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[19]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[18]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[17]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[16]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[15]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[14]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[13]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[12]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[11]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[10]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[9]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[8]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[7]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[6]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[5]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[4]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[3]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[2]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[1]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port aluout[0]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port writedata[31]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port writedata[30]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port writedata[29]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port writedata[28]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port writedata[27]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port writedata[26]
+WARNING: [Synth 8-3331] design PIPEDMIPS has unconnected port writedata[25]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1709.727 ; gain = 206.469 ; free physical = 5529 ; free virtual = 24700
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1715.664 ; gain = 212.406 ; free physical = 5530 ; free virtual = 24702
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1715.664 ; gain = 212.406 ; free physical = 5530 ; free virtual = 24702
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/constrs_1/new/sim_constratins.xdc]
+Finished Parsing XDC File [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/constrs_1/new/sim_constratins.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/constrs_1/new/sim_constratins.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/PIPEDPROCESSOR_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/PIPEDPROCESSOR_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1889.352 ; gain = 0.000 ; free physical = 5371 ; free virtual = 24563
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1889.352 ; gain = 0.000 ; free physical = 5371 ; free virtual = 24563
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5498 ; free virtual = 24680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5498 ; free virtual = 24680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5501 ; free virtual = 24682
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "INSTUCT_RAM" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5489 ; free virtual = 24672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 10    
+	                5 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	  19 Input     32 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module MAINDEC 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      7 Bit        Muxes := 1     
+Module ALUDEC 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      3 Bit        Muxes := 1     
+Module FLOPR 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module ADDER 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module MUX2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module RF 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module MUX2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
+Module FLOPR__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module FLOPR__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module FLOPR__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module IM 
+Detailed RTL Component Info : 
++---Muxes : 
+	  19 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element dmem/DATA_RAM_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element mips/dp/rf/rf_reg was removed. 
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[15] with 1st driver pin 'i_2/rd[15]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[15] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[15] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[14] with 1st driver pin 'i_2/rd[14]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[14] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[14] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[13] with 1st driver pin 'i_2/rd[13]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[13] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[13] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[12] with 1st driver pin 'i_2/rd[12]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[12] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[12] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[11] with 1st driver pin 'i_2/rd[11]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[11] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[11] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[10] with 1st driver pin 'i_2/rd[10]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[10] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[10] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[9] with 1st driver pin 'i_2/rd[9]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[9] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[9] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[8] with 1st driver pin 'i_2/rd[8]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[8] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[8] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[7] with 1st driver pin 'i_2/rd[7]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[7] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[7] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[6] with 1st driver pin 'i_2/rd[6]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[6] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[6] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[5] with 1st driver pin 'i_2/rd[5]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[5] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[5] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[4] with 1st driver pin 'i_2/rd[4]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[4] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[4] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[3] with 1st driver pin 'i_2/rd[3]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[3] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[3] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[2] with 1st driver pin 'i_2/rd[2]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[2] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[2] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[1] with 1st driver pin 'i_2/rd[1]' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin rd[1] with 2nd driver pin 'GND' [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net rd[1] is connected to at least one constant driver which has been preserved, other driver is ignored [/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.srcs/sources_1/new/IM.v:15]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5486 ; free virtual = 24672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5383 ; free virtual = 24556
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5383 ; free virtual = 24556
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5381 ; free virtual = 24554
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5381 ; free virtual = 24554
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5381 ; free virtual = 24554
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5381 ; free virtual = 24554
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5381 ; free virtual = 24554
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5381 ; free virtual = 24554
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5381 ; free virtual = 24554
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |OBUFT |    73|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    73|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5381 ; free virtual = 24554
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 45 critical warnings and 82 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1889.352 ; gain = 212.406 ; free physical = 5438 ; free virtual = 24611
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1889.352 ; gain = 386.094 ; free physical = 5452 ; free virtual = 24625
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1889.352 ; gain = 0.000 ; free physical = 5395 ; free virtual = 24555
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+59 Infos, 177 Warnings, 45 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1889.352 ; gain = 524.789 ; free physical = 5492 ; free virtual = 24652
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1889.352 ; gain = 0.000 ; free physical = 5492 ; free virtual = 24652
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.runs/synth_1/PIPEDPROCESSOR.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file PIPEDPROCESSOR_utilization_synth.rpt -pb PIPEDPROCESSOR_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 16 22:05:50 2019...

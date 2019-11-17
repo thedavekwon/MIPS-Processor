@@ -4,12 +4,14 @@ module testbench();
 
     reg clk;
     reg reset;
+    reg [7:0] showreg;
+    reg [6:0] showaddr;
     
     wire [31:0] writedata;
     wire [31:0] dataaddr;
     wire memwrite;
     
-    PROCESSOR processor(clk, reset, writedata, dataaddr, memwrite);
+    PIPEDPROCESSOR processor(clk, reset, writedata, dataaddr, memwrite, showreg, showaddr);
     
     initial
     begin

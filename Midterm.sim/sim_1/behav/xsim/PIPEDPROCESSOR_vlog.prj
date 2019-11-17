@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Midterm.srcs/sources_1/new/ADDER.v" \
+"../../../../Midterm.srcs/sources_1/new/ALU.v" \
+"../../../../Midterm.srcs/sources_1/new/ALUDEC.v" \
+"../../../../Midterm.srcs/sources_1/new/DM.v" \
+"../../../../Midterm.srcs/sources_1/new/FLOPR.v" \
+"../../../../Midterm.srcs/sources_1/new/IM.v" \
+"../../../../Midterm.srcs/sources_1/new/MAINDEC.v" \
+"../../../../Midterm.srcs/sources_1/new/PIPEDCONTROL.v" \
+"../../../../Midterm.srcs/sources_1/new/PIPEDDATAPATH.v" \
+"../../../../Midterm.srcs/sources_1/new/PIPEDMIPS.v" \
+"../../../../Midterm.srcs/sources_1/new/RF.v" \
+"../../../../Midterm.srcs/sources_1/new/SIGN_EXT.v" \
+"../../../../Midterm.srcs/sources_1/new/SL2.v" \
+"../../../../Midterm.srcs/sources_1/new/mux2.v" \
+"../../../../Midterm.srcs/sources_1/new/pipeD.v" \
+"../../../../Midterm.srcs/sources_1/new/pipeE.v" \
+"../../../../Midterm.srcs/sources_1/new/pipeFD.v" \
+"../../../../Midterm.srcs/sources_1/new/pipeW.v" \
+"../../../../Midterm.srcs/sources_1/new/PIPEDPROCESSOR.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

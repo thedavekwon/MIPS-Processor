@@ -12,20 +12,17 @@ module DM
 );
     integer i;
     reg [31:0] DATA_RAM[127:0];
-    assign rd = DATA_RAM[addr[8:2]]; //[31:2]
+    assign rd = DATA_RAM[addr[6:0]]; //[31:2]
     
     initial
     begin
-       for (i = 0; i < 64; i=i+1)
+       for (i = 0; i < 128; i=i+1)
        DATA_RAM[i] = 0;
     end
     
     always @ (posedge clk)
     begin
-        if (we)
-        begin
-            DATA_RAM[addr] <= wd;
-        end
+        if (we) DATA_RAM[addr] <= wd;
     end
     
 endmodule

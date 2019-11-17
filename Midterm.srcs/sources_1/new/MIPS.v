@@ -8,7 +8,9 @@ module MIPS
     output memwrite,
     output [31:0] aluout,
     output [31:0] writedata,
-    input [31:0] readdata
+    input [31:0] readdata,
+    output [7:0] showreg,
+    input [6:0] showaddr
 );
 
     wire memtoreg;
@@ -16,6 +18,6 @@ module MIPS
     wire [2:0] alucontrol;
     
     CONTROL ctrl(instr[31:26], instr[5:0], zero, memtoreg, memwrite, pcsrc, alusrc, regdst, regwrite, jump, alucontrol);
-    DATAPATH dp(clk, reset, memtoreg, pcsrc, alusrc, regdst, regwrite, jump, alucontrol, zero, pc, instr, aluout, writedata, readdata);
+    DATAPATH dp(clk, reset, memtoreg, pcsrc, alusrc, regdst, regwrite, jump, alucontrol, zero, pc, instr, aluout, writedata, readdata, showreg, showaddr);
 
 endmodule
