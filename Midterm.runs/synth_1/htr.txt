@@ -6,4 +6,4 @@
 # Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 #
 
-vivado -log PIPEDPROCESSOR.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PIPEDPROCESSOR.tcl
+vivado -log PROCESSOR.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PROCESSOR.tcl

@@ -1,74 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1573959926">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1574043099">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-DRC" Name="PIPEDPROCESSOR.drc"/>
-  <File Type="BG-BGN" Name="PIPEDPROCESSOR.bgn"/>
-  <File Type="BITSTR-SYSDEF" Name="PIPEDPROCESSOR.sysdef"/>
+  <File Type="BG-DRC" Name="PROCESSOR.drc"/>
+  <File Type="BG-BGN" Name="PROCESSOR.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="PROCESSOR.sysdef"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="PIPEDPROCESSOR.ltx"/>
-  <File Type="BITSTR-MMI" Name="PIPEDPROCESSOR.mmi"/>
-  <File Type="BITSTR-BMM" Name="PIPEDPROCESSOR_bd.bmm"/>
-  <File Type="BITSTR-NKY" Name="PIPEDPROCESSOR.nky"/>
-  <File Type="BITSTR-RBT" Name="PIPEDPROCESSOR.rbt"/>
-  <File Type="BITSTR-MSK" Name="PIPEDPROCESSOR.msk"/>
-  <File Type="BG-BIN" Name="PIPEDPROCESSOR.bin"/>
-  <File Type="BG-BIT" Name="PIPEDPROCESSOR.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="PIPEDPROCESSOR_bus_skew_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="PIPEDPROCESSOR_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="PIPEDPROCESSOR_bus_skew_postroute_physopted.rpt"/>
-  <File Type="RDI-RDI" Name="PIPEDPROCESSOR.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="PIPEDPROCESSOR_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="PIPEDPROCESSOR_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="PIPEDPROCESSOR_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="PIPEDPROCESSOR_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="PIPEDPROCESSOR_postroute_physopt.dcp"/>
-  <File Type="ROUTE-BUS-SKEW" Name="PIPEDPROCESSOR_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="PIPEDPROCESSOR_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-SIMILARITY" Name="PIPEDPROCESSOR_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="PIPEDPROCESSOR_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-TIMING-PB" Name="PIPEDPROCESSOR_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="PIPEDPROCESSOR_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="PIPEDPROCESSOR_route_status.pb"/>
-  <File Type="ROUTE-STATUS" Name="PIPEDPROCESSOR_route_status.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="PIPEDPROCESSOR_power_routed.rpx"/>
-  <File Type="ROUTE-PWR-SUM" Name="PIPEDPROCESSOR_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="PIPEDPROCESSOR_power_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="PIPEDPROCESSOR_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="PIPEDPROCESSOR_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="PIPEDPROCESSOR_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="PIPEDPROCESSOR_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="PIPEDPROCESSOR_drc_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="PIPEDPROCESSOR_drc_routed.rpt"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="PIPEDPROCESSOR_routed_bb.dcp"/>
-  <File Type="ROUTE-DCP" Name="PIPEDPROCESSOR_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="PIPEDPROCESSOR_routed_error.dcp"/>
-  <File Type="PHYSOPT-TIMING" Name="PIPEDPROCESSOR_timing_summary_physopted.rpt"/>
-  <File Type="PHYSOPT-DRC" Name="PIPEDPROCESSOR_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="PIPEDPROCESSOR_physopt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="PIPEDPROCESSOR_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="PIPEDPROCESSOR_postplace_pwropt.dcp"/>
-  <File Type="PLACE-TIMING" Name="PIPEDPROCESSOR_timing_summary_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="PIPEDPROCESSOR_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="PIPEDPROCESSOR_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-CTRL" Name="PIPEDPROCESSOR_control_sets_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="PIPEDPROCESSOR_utilization_placed.pb"/>
-  <File Type="PLACE-UTIL" Name="PIPEDPROCESSOR_utilization_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="PIPEDPROCESSOR_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-IO" Name="PIPEDPROCESSOR_io_placed.rpt"/>
-  <File Type="PLACE-DCP" Name="PIPEDPROCESSOR_placed.dcp"/>
-  <File Type="PWROPT-TIMING" Name="PIPEDPROCESSOR_timing_summary_pwropted.rpt"/>
-  <File Type="PWROPT-DRC" Name="PIPEDPROCESSOR_drc_pwropted.rpt"/>
-  <File Type="PWROPT-DCP" Name="PIPEDPROCESSOR_pwropt.dcp"/>
-  <File Type="OPT-TIMING" Name="PIPEDPROCESSOR_timing_summary_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="PIPEDPROCESSOR.hwdef"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="PIPEDPROCESSOR_methodology_drc_opted.rpt"/>
-  <File Type="OPT-DRC" Name="PIPEDPROCESSOR_drc_opted.rpt"/>
-  <File Type="OPT-DCP" Name="PIPEDPROCESSOR_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="PIPEDPROCESSOR_timing_summary_init.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="PIPEDPROCESSOR_bus_skew_routed.rpx"/>
-  <File Type="REPORTS-TCL" Name="PIPEDPROCESSOR_reports.tcl"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="PIPEDPROCESSOR_bus_skew_routed.pb"/>
-  <File Type="PA-TCL" Name="PIPEDPROCESSOR.tcl"/>
+  <File Type="BITSTR-LTX" Name="PROCESSOR.ltx"/>
+  <File Type="BITSTR-MMI" Name="PROCESSOR.mmi"/>
+  <File Type="BITSTR-BMM" Name="PROCESSOR_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="PROCESSOR.nky"/>
+  <File Type="BITSTR-RBT" Name="PROCESSOR.rbt"/>
+  <File Type="BITSTR-MSK" Name="PROCESSOR.msk"/>
+  <File Type="BG-BIN" Name="PROCESSOR.bin"/>
+  <File Type="BG-BIT" Name="PROCESSOR.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="PROCESSOR_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="PROCESSOR_bus_skew_postroute_physopted.pb"/>
+  <File Type="RDI-RDI" Name="PROCESSOR.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="PROCESSOR_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="PROCESSOR_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="PROCESSOR_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="PROCESSOR_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="PROCESSOR_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="PROCESSOR_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="PROCESSOR_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="PROCESSOR_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="PROCESSOR_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="PROCESSOR_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="PROCESSOR_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="PROCESSOR_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="PROCESSOR_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="PROCESSOR_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="PROCESSOR_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="PROCESSOR_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="PROCESSOR_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="PROCESSOR_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="PROCESSOR_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="PROCESSOR_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="PROCESSOR_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="PROCESSOR_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="PROCESSOR_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="PROCESSOR_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="PROCESSOR_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="PROCESSOR_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="PROCESSOR_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="PROCESSOR_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="PROCESSOR_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="PROCESSOR_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="PROCESSOR_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="PROCESSOR_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="PROCESSOR_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="PROCESSOR_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="PROCESSOR_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="PROCESSOR_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="PROCESSOR_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="PROCESSOR_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="PROCESSOR_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="PROCESSOR_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="PROCESSOR_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="PROCESSOR_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="PROCESSOR_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="PROCESSOR.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="PROCESSOR_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="PROCESSOR_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="PROCESSOR_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="PROCESSOR_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="PROCESSOR_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="PROCESSOR_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="PROCESSOR_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="PROCESSOR.tcl"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="PROCESSOR_bus_skew_postroute_physopted.rpt"/>
+  <File Type="PA-DCP" Name="PROCESSOR.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/ADDER.v">
@@ -86,6 +87,20 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/ALUDEC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CONTROL.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DATAPATH.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -120,21 +135,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/PIPEDCONTROL.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/PIPEDDATAPATH.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/PIPEDMIPS.v">
+    <File Path="$PSRCDIR/sources_1/new/MIPS.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -169,8 +170,40 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/PROCESSOR.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PIPEDCONTROL.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PIPEDDATAPATH.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PIPEDMIPS.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/pipeD.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -178,6 +211,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/pipeE.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -185,6 +219,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/pipeFD.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -192,43 +227,13 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/pipeW.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/PIPEDPROCESSOR.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/DATAPATH.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/CONTROL.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/MIPS.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/PROCESSOR.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -252,7 +257,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="PIPEDPROCESSOR"/>
+      <Option Name="TopModule" Val="PROCESSOR"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

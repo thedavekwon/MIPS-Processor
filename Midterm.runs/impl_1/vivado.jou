@@ -2,11 +2,11 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sat Nov 16 22:05:51 2019
-# Process ID: 32519
+# Start of session at: Sun Nov 17 21:11:41 2019
+# Process ID: 18615
 # Current directory: /afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.runs/impl_1
-# Command line: vivado -log PIPEDPROCESSOR.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source PIPEDPROCESSOR.tcl -notrace
-# Log file: /afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.runs/impl_1/PIPEDPROCESSOR.vdi
+# Command line: vivado -log PROCESSOR.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source PROCESSOR.tcl -notrace
+# Log file: /afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.runs/impl_1/PROCESSOR.vdi
 # Journal file: /afs/ee.cooper.edu/user/k/kwon3/Projects/MIPS-Processor/Midterm.runs/impl_1/vivado.jou
 #-----------------------------------------------------------
-source PIPEDPROCESSOR.tcl -notrace
+source PROCESSOR.tcl -notrace
